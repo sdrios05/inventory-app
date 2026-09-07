@@ -5,7 +5,9 @@ app = Flask(__name__)
 inventory = {
     "SKU001": {"name": "Laptop", "stock": 10},
     "SKU002": {"name": "Mouse", "stock": 50},
-    "SKU003": {"name": "Keyboard", "stock": 25}
+    "SKU003": {"name": "Keyboard", "stock": 25},
+    "SKU004": {"name": "HOLA", "stock": 25},
+    "SKU005": {"name": "Hello", "stock": 25}
 }
 
 @app.route('/')
